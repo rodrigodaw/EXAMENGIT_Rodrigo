@@ -1,24 +1,26 @@
 import java.util.Scanner;
 
-public class Criogenización_374 {
+public class Criogenizacion_374 {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
-		int n = 0;
-		int min = Integer.MAX_VALUE;
-		int max = Integer.MIN_VALUE;
-		int contmax = 0;
-		int contmin = 0;
 		
-		while (true) {
+		int casos;
+		long n = 0;
+		long min = Integer.MAX_VALUE;
+		long max = Integer.MIN_VALUE;
+		long contmax = 0;
+		long contmin = 0;
+		
+		casos = sc.nextInt();
+		
+		for (int i = 0; i < casos; i++){
+
 			
 			n = sc.nextInt();
 
-			if (n==0) {
-				break;
-			}
+			
 			
 			if (n > max) {
 				
@@ -45,9 +47,7 @@ public class Criogenización_374 {
 				contmin++;
 				
 			}
-		
 		}
-		
 		System.out.println( min + " " + contmin + " " + max + " " + contmax);
 		
 	}
