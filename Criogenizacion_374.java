@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Criogenización_374 {
+public class Criogenizacion_374 {
 
 	public static void main(String[] args) {
 
